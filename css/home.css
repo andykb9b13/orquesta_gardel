@@ -6,22 +6,38 @@
 #DBD5B5 */
 
 body {
-    background-image: url("https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/235932510_678393239774600_275357119712451429_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_ohc=Dq52Osif-KgAX9aIXr1&_nc_ht=scontent-iad3-2.xx&oh=00_AT-tj6QJFxipc59r3HDiUcMwRHJL-KZ22r9zHi8Wpmhu3g&oe=635AF9C5");
     font-family: 'Khula', sans-serif;
+    background-color: ;
 }
 
 h1 {
     font-family: 'Khula', sans-serif;
     font-weight: 700;
-    font-size: 4em;
+    font-size: 100px;
     text-align: center;
+    border: 2px solid #2B9EB3;
 }
 
-#gardelLogo {
+.menu {
+    background-color: black;
+    position: sticky;
+    top: 0;
+    border: 2px solid #2B9EB3;
+}
+
+nav li {
+    display: inline-flex;
+    justify-content: center;
+    font-size: 2em;
+    padding-right: 2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.gardelLogo {
     width: 50px;
     align-items: center;
-}
-
-img {
-    width: 40%;
 }
