@@ -33,6 +33,7 @@ h1:hover {
     transition: 500ms;
 }
 
+
 .menu {
     display: flex;
     background-color: black;
@@ -67,4 +68,8 @@ nav a:hover {
 .gardelLogo {
     width: 50px;
     align-items: center;
+}
+
+p {
+    color: white;
 }
