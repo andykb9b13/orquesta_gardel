@@ -33,30 +33,16 @@ const button = document.querySelector('button');
 //     }
 // });
 
-// trying to do it with a loop
-
+// trying to do it one at a time
 window.addEventListener('load', () => {
     for (let quote of quotes) {
         quote.style.opacity = 0;
         quote.style.transition = "opacity, 3s";
-        quote.style.color = '#F8333C';
         setTimeout(() => {
             quote.style.opacity = 1;
             quote.style.trasition = "opacity, 3s"
-            quote.style.color = '#2B9EB3';
         }, 3000)
     }
 });
-
-const gardelLogo = document.querySelector('#gardelLogo');
-
-// checking to see if multiple window eventListeners will fire
-window.addEventListener('load', () => {
-    console.log("this works too");
-})
-
-const bkgdImg1 = document.querySelector('#bkgdImg1');
-bkgdImg1.style.opacity = 0.5;
-
 
 
