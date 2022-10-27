@@ -37,11 +37,11 @@ const button = document.querySelector('button');
 window.addEventListener('load', () => {
     for (let quote of quotes) {
         quote.style.opacity = 0;
-        quote.style.transition = "opacity, 3s";
+        quote.style.transition = "opacity, 2s";
         setTimeout(() => {
             quote.style.opacity = 1;
-            quote.style.trasition = "opacity, 3s"
-        }, 3000)
+            quote.style.trasition = "opacity, 2s"
+        }, 2000)
     }
 });
 

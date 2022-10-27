@@ -8,6 +8,7 @@ body {
     font-family: 'Roboto Mono', monospace;
     /* background-color: black; */
     color: white;
+    margin: 0px;
 }
 
 h1 {
@@ -77,9 +78,10 @@ nav a:hover {
 .introContent p {
     font-size: 3em;
     font-weight: 300;
+    opacity: 1;
 }
 
-.aboutBand {
+.aboutBand div {
     background-image: url("https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/236309041_678393236441267_7992929386329314258_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=NJr3w0HGM3UAX8g4d04&_nc_ht=scontent-iad3-2.xx&oh=00_AfDcLAwqQkqSFBMnpA7Rs6LCZegQryR9RtaRZW7jlizRrA&oe=63605D3D");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -87,11 +89,15 @@ nav a:hover {
     padding-bottom: 300px;
     background-position-y: top;
     color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#about p {
+.aboutBand p {
     font-weight: 400;
-    font-size: 1.2em;
+    font-size: 2em;
+    margin: 3em;
 }
 
 /* .bandImg {
@@ -106,13 +112,6 @@ nav a:hover {
     background-size: cover;
     padding-bottom: 300px;
     background-position-y: center;
-}
-
-#music,
-#about {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 
 #music img,
