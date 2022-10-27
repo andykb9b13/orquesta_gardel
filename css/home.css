@@ -31,6 +31,7 @@ h1 {
     position: sticky;
     top: 0;
     justify-content: center;
+    background-color: black;
 }
 
 nav li {
@@ -49,6 +50,7 @@ nav a {
 nav a:hover {
     color: #F8333C;
     transition: 200ms;
+    text-shadow: 1px 0 9px #DBD5B5;
 }
 
 .gardelLogo {
@@ -64,26 +66,39 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url("https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/312822367_10228797397020760_3754353643014589453_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=3b7ae0&_nc_ohc=HEnbfkKH1BMAX93jNVV&_nc_ht=scontent-iad3-2.xx&oh=00_AT_DDmi7eVr-8AhcnxxEmVGwaHG0IJsMvZ2OcWYO5PZHig&oe=635CBAD7");
-    background-size: 100%;
+    /* background-image: url("https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/312822367_10228797397020760_3754353643014589453_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=3b7ae0&_nc_ohc=HEnbfkKH1BMAX93jNVV&_nc_ht=scontent-iad3-2.xx&oh=00_AT_DDmi7eVr-8AhcnxxEmVGwaHG0IJsMvZ2OcWYO5PZHig&oe=635CBAD7");
+    background-size: 100%; */
     padding-bottom: 500px;
+    /* background-position-y: center; */
 }
 
-.bandImg {
+.introContent p {
+    font-size: 3em;
+    font-weight: 300;
+}
+
+#about p {
+    font-weight: 300;
+    font-size: 1.2em
+}
+
+/* .bandImg {
     display: flex;
     justify-content: center;
-}
+} */
 
 .aboutBand {
     background-image: url("https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/312909302_10228797431741628_2768536362899170228_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=uzcBfJHobJkAX8Yr11g&tn=HeDUMjhYoB1kCXUX&_nc_ht=scontent-iad3-2.xx&oh=00_AT84gBshoTL7LGQpWTXXnqyxu87P4VhDCAkPdwhdva5aUQ&oe=635CABC3");
     background-size: 100%;
     padding-bottom: 500px;
+    background-position-y: center;
 }
 
 .music {
     background-image: url("https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/313087303_10228797432621650_1564889843554114344_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=QATB_Q-ps9IAX923Brw&_nc_ht=scontent-iad3-2.xx&oh=00_AT_F0uks3PZA7o4RmfrG4N1btwtItM1bu7SVaBd977DEEw&oe=635D4443");
     background-size: 100%;
     padding-bottom: 500px;
+    background-position-y: center;
 }
 
 #music,
