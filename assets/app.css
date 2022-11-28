@@ -3,10 +3,13 @@
 #FCAB10 - crayola yellow
 #2B9EB3 - blue munsell
 #DBD5B5 - dutch white */
+:root {
+    --main-text-color: #F8333C;
+    --main-text-shadow: #FC0 1px 0 10px;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: white;
     margin: 0px;
 }
 
@@ -16,6 +19,8 @@ h1 {
     text-align: center;
     padding: 50px;
     margin: 0px;
+    color: var(--main-text-color);
+    text-shadow: var(--main-text-shadow);
 }
 
 h2 {
@@ -61,17 +66,22 @@ nav a:hover {
     transition-timing-function: ease-in-out;
 }
 
-/* #fullBandPhoto {
+#fullBandPhoto {
     max-width: 90%;
-} */
+}
+
+#quotes p {
+    color: var(--main-text-color);
+    text-shadow: var(--main-text-shadow);
+}
 
 .introContent {
-    background-image: url("https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/312822367_10228797397020760_3754353643014589453_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=3b7ae0&_nc_ohc=HEnbfkKH1BMAX93jNVV&_nc_ht=scontent-iad3-2.xx&oh=00_AT_DDmi7eVr-8AhcnxxEmVGwaHG0IJsMvZ2OcWYO5PZHig&oe=635CBAD7");
+    background-image: url("https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/236309041_678393236441267_7992929386329314258_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=0OIUCi-DJJIAX85jLxS&_nc_ht=scontent-iad3-2.xx&oh=00_AfAusQHHt66LUkkVTzEvZHjswDeZPhPqJx8-IwLD3REWKg&oe=6389E47D");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     padding-bottom: 300px;
-    background-position-y: center;
+    background-position-y: top;
 }
 
 .introContent p {
@@ -80,10 +90,11 @@ nav a:hover {
     opacity: 1;
     text-align: center;
     opacity: 0;
+    color: white;
 }
 
 .aboutBand div {
-    background-image: url("https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/236309041_678393236441267_7992929386329314258_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=NJr3w0HGM3UAX8g4d04&_nc_ht=scontent-iad3-2.xx&oh=00_AfDcLAwqQkqSFBMnpA7Rs6LCZegQryR9RtaRZW7jlizRrA&oe=63605D3D");
+    background-image: url(./images/GarDel-horns.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -99,6 +110,7 @@ nav a:hover {
     font-weight: 400;
     font-size: 2em;
     margin: 3em;
+    color: var(--main-text-color);
 }
 
 /* .bandImg 
